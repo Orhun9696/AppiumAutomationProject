@@ -1,0 +1,4 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: The requested version 1.5.6 by your slf4j binding is not compatible with [1.6, 1.7]
+SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.

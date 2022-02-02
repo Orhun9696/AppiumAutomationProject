@@ -1,0 +1,218 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 2188milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2188"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58388"}
+{"logLevel":"info","message":"Listening on port:58388"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSecond' and 'StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.scrollAction' and 'StepImplementation.scrollAction'"}
+{"logLevel":"debug","message":"Found Sayfayı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeysById' and 'StepImplementation.sendKeysById'"}
+{"logLevel":"debug","message":"Found {} id'sine {} textini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.selectRandomProduct' and 'StepImplementation.selectRandomProduct'"}
+{"logLevel":"debug","message":"Found {} inden  rastgele ürün seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeysByXpath' and 'StepImplementation.sendKeysByXpath'"}
+{"logLevel":"debug","message":"Found {} xpath'ine {} textini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.controlFromId' and 'StepImplementation.controlFromId'"}
+{"logLevel":"debug","message":"Found check {} id in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByXPath' and 'StepImplementation.clickByXPath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.textAreaControlId' and 'StepImplementation.textAreaControlId'"}
+{"logLevel":"debug","message":"Found id {} li elementi bul ve {} alanını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByid' and 'StepImplementation.clickByid'"}
+{"logLevel":"debug","message":"Found {} id'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.textAreaControlXpath' and 'StepImplementation.textAreaControlXpath'"}
+{"logLevel":"debug","message":"Found xpath {} li elementi bul ve {} alanını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSayfayı kaydır : public void scrollAction()"}
+{"logLevel":"debug","message":"\t{} id'sine {} textini yaz : public void sendKeysById(String id, String text)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForSecond(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\txpath {} li elementi bul ve {} alanını kontrol et : public void textAreaControlXpath(String xpath, String text)"}
+{"logLevel":"debug","message":"\t{} xpath'ine {} textini yaz : public void sendKeysByXpath(String xpath, String text)"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente tıkla : public void clickByXPath(String selectorxpath)"}
+{"logLevel":"debug","message":"\t{} id'li elemente tıkla : public void clickByid(String selectorid)"}
+{"logLevel":"debug","message":"\tid {} li elementi bul ve {} alanını kontrol et : public void textAreaControlId(String id, String text)"}
+{"logLevel":"debug","message":"\tcheck {} id : public void controlFromId(String idControl)"}
+{"logLevel":"debug","message":"\t{} inden  rastgele ürün seç : public void selectRandomProduct(String xpath)"}
+ANDROID TESTI BASLIYOR
+Şub 02, 2022 4:45:55 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'id {} li elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreaControlId"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente tıkla' using 'class StepImplementation.clickByid"}
+İstenilen elemente tıklanılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=id, value=com.ozdilek.ozdilekteyim:id/tv_startShoppingStor}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'xpath {} li elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreaControlXpath"}
+İçerik görüntülenemedi
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout[@content-desc='Kategoriler']/android.view.ViewGroup/android.widget.TextView}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickByXPath"}
+İstenilen elemente tıklanılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout[@content-desc='Kategoriler']/android.view.ViewGroup/android.widget.TextView}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'xpath {} li elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreaControlXpath"}
+İçerik görüntülenemedi
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@content-desc='Markalar']/android.widget.TextView}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickByXPath"}
+İstenilen elemente tıklanılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickByXPath"}
+İstenilen elemente tıklanılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Sayfayı kaydır' using 'class StepImplementation.scrollAction"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Sayfayı kaydır' using 'class StepImplementation.scrollAction"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} inden  rastgele ürün seç' using 'class StepImplementation.selectRandomProduct"}
+Sayfa scroll edilemedi
+java.lang.IllegalArgumentException: bound must be positive
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Sayfayı kaydır' using 'class StepImplementation.scrollAction"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'xpath {} li elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreaControlXpath"}
+İçerik görüntülenemedi
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@text='AÇIKLAMALAR']}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickByXPath"}
+İstenilen elemente tıklanılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayAddFav']}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'xpath {} li elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreaControlXpath"}
+İçerik görüntülenemedi
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@text='Giriş Yap']}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} xpath'ine {} textini yaz' using 'class StepImplementation.sendKeysByXpath"}
+İstenilen text yazılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.ozdilek.ozdilekteyim:id/etEposta']}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} xpath'ine {} textini yaz' using 'class StepImplementation.sendKeysByXpath"}
+İstenilen text yazılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.ozdilek.ozdilekteyim:id/etPassword']}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickByXPath"}
+İstenilen elemente tıklanılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickByXPath"}
+İstenilen elemente tıklanılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} inden  rastgele ürün seç' using 'class StepImplementation.selectRandomProduct"}
+Sayfa scroll edilemedi
+java.lang.IllegalArgumentException: bound must be positive
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickByXPath"}
+İstenilen elemente tıklanılamadı
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G7KGPR3', ip: '172.16.56.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 575677dc-f072-4a5f-812f-c1385e778ea5
+*** Element info: {Using=xpath, value=//*[@text='SEPETE EKLE']}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

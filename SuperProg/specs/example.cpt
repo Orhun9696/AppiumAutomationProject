@@ -1,0 +1,62 @@
+
+#Uygulamada açılan sayfada 'Mağazadan Alışveriş' yazısını kontrol et
+* "10" saniye bekle
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elementi bul ve "ALIŞVERİŞE BAŞLA" alanını kontrol et
+#Alışverişe başla butonuna tıkla
+* "7" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id'li elemente tıkla
+#Alışveriş sayfasının açıldığını doğrula 'Kategoriler' yazısını kontrol et
+* "7" saniye bekle
+* xpath "//android.widget.FrameLayout[@content-desc='Kategoriler']/android.view.ViewGroup/android.widget.TextView" li elementi bul ve "Kategoriler" alanını kontrol et
+#Kategoriler butonuna tıkla
+* "7" saniye bekle
+* "//android.widget.FrameLayout[@content-desc='Kategoriler']/android.view.ViewGroup/android.widget.TextView" xpath'li elemente tıkla
+#Kategoriler sayfasının açıldığını doğrula 'Markalar' kontrol et
+* "7" saniye bekle
+* xpath "//android.widget.LinearLayout[@content-desc='Markalar']/android.widget.TextView" li elementi bul ve "Markalar" alanını kontrol et
+#Kategorilerden 'Kadın' yazılanı seç
+* "9" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" xpath'li elemente tıkla
+#Pantolon seçeneğine tıklanır
+* "7" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" xpath'li elemente tıkla
+#Scroll edilir(1)
+* "7" saniye bekle
+* Sayfayı kaydır
+#Scroll edilir(2)
+* "7" saniye bekle
+* Sayfayı kaydır
+#Rasgele ürün seçilir(1)
+* "7" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" inden  rastgele ürün seç
+#Scroll edilir(3)
+* "7" saniye bekle
+* Sayfayı kaydır
+#Ürün detay sayfasında açıldığı kontrol edilir
+* "7" saniye bekle
+* xpath "//*[@text='AÇIKLAMALAR']" li elementi bul ve "AÇIKLAMALAR" alanını kontrol et
+#Favorilere eklendiği görülür
+* "7" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayAddFav']" xpath'li elemente tıkla
+#Giriş sayfasına yönlendirildiği kontrol edilir
+* "7" saniye bekle
+* xpath "//*[@text='Giriş Yap']" li elementi bul ve "Giriş Yap" alanını kontrol et
+#Text yazısı gönderilir
+* "7" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etEposta']" xpath'ine "text" textini yaz
+#Şifre yazısı gönderilir
+* "7" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etPassword']" xpath'ine "şifre" textini yaz
+#Geri butonuna tıklanır(1)
+* "7" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']" xpath'li elemente tıkla
+#Geri butonuna tıklanır(2)
+* "7" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']" xpath'li elemente tıkla
+#Rastgele ürün seçilir(2)
+* "7" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" inden  rastgele ürün seç
+#Sepete eklenme hatası gözlemlenir
+* "7" saniye bekle
+* "//*[@text='SEPETE EKLE']" xpath'li elemente tıkla
+* "7" saniye bekle
